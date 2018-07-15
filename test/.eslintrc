@@ -1,0 +1,14 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "web3": false,
+    "assert": false,
+    "artifacts": false,
+    "contract": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}

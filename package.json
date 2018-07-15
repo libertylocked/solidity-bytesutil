@@ -1,0 +1,36 @@
+{
+  "name": "solidity-bytesutil",
+  "version": "1.0.0",
+  "description": "Solidity library to manipulate bytes",
+  "scripts": {
+    "testrpc": "ganache-cli -p 7545 -i 5777 -e 1000",
+    "test:sol": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libertylocked/solidity-bytesutil.git"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity"
+  ],
+  "author": "libertylocked",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libertylocked/solidity-bytesutil/issues"
+  },
+  "homepage": "https://github.com/libertylocked/solidity-bytesutil#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "ganache-cli": "^6.1.6"
+  }
+}
