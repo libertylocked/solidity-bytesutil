@@ -4,7 +4,7 @@
   "description": "Solidity library to manipulate bytes",
   "scripts": {
     "testrpc": "ganache-cli -p 7545 -i 5777 -e 1000",
-    "test:sol": "truffle test"
+    "test": "truffle test"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,9 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "ganache-cli": "^6.1.6"
+  },
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
+    "ethereumjs-util": "^5.2.0"
   }
 }
